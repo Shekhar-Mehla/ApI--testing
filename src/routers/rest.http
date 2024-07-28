@@ -1,0 +1,27 @@
+### resful api
+@base_url = http://localhost:8000
+
+### Post  method to add data
+POST  {{base_url}}
+Content-Type: application/json
+
+{
+  "task":"khana",
+  "hr":40
+}
+
+### get method to read data
+GET {{base_url}}
+Content-Type: application/json
+
+
+### update method to update data
+PUT  {{base_url}}
+Content-Type: application/json
+
+
+
+### delete method to delete data
+DELETE  {{base_url}}
+Content-Type: application/json
+
